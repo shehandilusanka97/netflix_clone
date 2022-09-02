@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
-function Row({title}) {
+function Row({title,fetchUrl}) {
     const [movies, setMovies] =useState([]);
+    useEffect(()=>{
+
+    },[]);
   return (
     <div>
         {/* tittle */}
